@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>JS Part 2 Ex 4</title>
+    </head>
+
+    <body>
+        <script>
+            var number = prompt('Une note sur 10 SVP');
+            var x = Number(number);
+            if (x == 0 || x == 1 || x == 2 || x == 3) {
+                alert("Nul");
+            }
+            else if (x == 4 || x == 5 || x == 6) {
+                alert("Moyen");
+            }
+            else if (x == 8 || x == 9) {
+                alert("Bien");
+            }
+            else if (x == 10) {
+                alert("Excellent");
+            }
+            else {
+                alert("Ce nombre n'est pas compris dans l'exercice !")
+            }
+              /*   switch (x) {
+                  case 0, 1, 2, 3:
+                      alert("Nul");
+                      break;
+                  case 4, 5, 6:
+                      alert("Moyen");
+                      break;
+                  case 8, 9:
+                      alert("Bien");
+                      break;
+                  case 10:
+                      alert("Excellent");
+                      break;
+              } */
+        </script>
+    </body>
+
+</html>
